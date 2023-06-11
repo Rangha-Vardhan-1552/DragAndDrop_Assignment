@@ -1,0 +1,30 @@
+.container {
+  border: 2px solid #DFA612;
+  display:flex;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.drag_container{
+  background-color: gray;
+  flex-basis: 100%;
+  flex-grow: 1;
+  padding: 10px;
+}
+
+.drag_item {
+  background-color:aquamarine;
+  box-shadow: 1px 2px 1px 2px;
+  font-weight:normal;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  cursor: move;
+}
+
+.drop_container {
+  flex-basis: 100%;
+  flex-grow: 1;
+  background-color: #e1e1e1;
+  padding: 10px;
+}

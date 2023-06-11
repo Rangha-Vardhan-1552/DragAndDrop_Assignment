@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>Assignment</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h2 style="box-shadow:1px 2px 2px 2px; color: blueviolet; width:300px;text-align: center; margin-left: 500px;">Drag and Drop Interface</h2>
+        <div class="container">
+            <div  id =container_1 class="drag_container">
+              <div id=item-1 class="drag_item" draggable="true"ondragstart="ondragStart(event);">Image file</div>
+              <div id=item-2 class="drag_item" draggable="true"ondragstart="ondragStart(event);">pictures</div>
+              <div id=item-3 class="drag_item" draggable="true"ondragstart="ondragStart(event);">Video</div>
+            </div>
+        
+
+          <div id="container_2" class="drop_container" ondragover="ondragOver(event);" ondrop="onDrop(event);">dropzone</div>
+        </div>
+        </br>
+          <button onclick="reset()"> Reset</button>
+        <script src="script.js"></script>
+    </body>
+</html>
